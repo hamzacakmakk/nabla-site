@@ -29,7 +29,7 @@
       <p>To understand which lessons work and where learners get stuck, Nabla records anonymous product events such as installing, opening and closing the app, moving between screens, starting and completing a lesson, mastering a skill, running out of hearts, viewing the upgrade screen, and starting or completing an exam. These events include the platform (iOS or Android), your app version, and basic details about the lesson or screen involved &mdash; for example the identifier of the skill, never anything you wrote.</p>
       <p>Screens are recorded by their route name, such as <code>lesson/[skillId]</code>, so the record is which <em>kind</em> of screen you were on rather than a trail of individual pages.</p>
       <p>Each installation is given a randomly generated identifier &mdash; a UUID such as <code>018f2c6a-4b1e-7c3d-9a52-6f0e1d7b2c84</code> &mdash; that is created on your device and is not derived from your device's hardware identifiers, advertising ID, or any personal information. It cannot be used to identify you, and it is not linked to a name, email address, or account.</p>
-      <p>This data is processed on our behalf by PostHog, hosted in the European Union. Analytics data is used only to improve Nabla. It is not used for advertising and is not sold.</p>
+      <p>This data is processed on our behalf by PostHog, hosted in the European Union. It is used only to improve Nabla, is not used for advertising, and is not sold. The separate, much smaller set of events used to measure our own advertising is described under &ldquo;Advertising and how we measure it&rdquo; below.</p>
 
       <h2>Session recording</h2>
       <p>Nabla also records an anonymous replay of your session &mdash; the screens you move between and where you tap &mdash; so we can see where a lesson becomes confusing instead of guessing from numbers alone. These recordings carry the same anonymous installation identifier described above and no personal information.</p>
@@ -39,8 +39,11 @@
       <p>Nabla Pro is an auto-renewing subscription sold through the Apple App Store or Google Play. <strong>Nabla never sees or stores your payment card, billing address, or store account credentials.</strong> Apple or Google processes the transaction under their own privacy policies.</p>
       <p>We use RevenueCat to tell the app whether your subscription is currently active. For this purpose the app sends and receives subscription status information, such as which product was purchased, whether a trial is running, and when the current period ends, associated with an anonymous purchase identifier rather than your identity.</p>
 
-      <h2>Advertising</h2>
-      <p>Nabla contains no advertising and no advertising SDK. We do not track you across other apps or websites, and we do not use your device's advertising identifier.</p>
+      <h2>Advertising and how we measure it</h2>
+      <p><strong>Nabla shows no advertising inside the app.</strong> There is no ad network placing banners or videos in front of you, and nothing you see in Nabla is paid placement.</p>
+      <p>We do advertise Nabla elsewhere &mdash; on Meta (Facebook and Instagram) and on Google &mdash; and to know whether those ads bring people who actually use the app, a small set of events is sent to those two companies: completing onboarding, finishing a lesson, mastering a skill, opening the upgrade screen, starting a purchase, and completing a purchase, with the amount and currency for the last two. This is done through Meta App Events and Google Analytics for Firebase. Nothing you type, and none of your progress data, is included.</p>
+      <p><strong>On iOS this uses your device's advertising identifier only if you allow it.</strong> The system asks once, with the App Tracking Transparency prompt; if you decline, no advertising identifier is collected and the measurement is limited to what Apple reports anonymously. On Android, your system-level advertising ID setting is respected. You can change either choice at any time in your device settings.</p>
+      <p>Meta and Google process this data under their own privacy policies. It is used to measure and improve our own advertising, and it is not sold.</p>
 
       <h2>Sharing a progress card</h2>
       <p>If you choose to share a progress card, Nabla creates the image on your device and opens your operating system's share sheet. Nabla does not control the third-party app or service you select, and that service's privacy policy will apply.</p>
@@ -60,7 +63,7 @@
 
       <h2>Changes to this policy</h2>
       <p>If Nabla later adds accounts, cloud sync, advertising, or other data processing, this policy and the relevant store disclosures will be updated before those features are released, and the effective date above will change.</p>
-      <p>Session recording was added on September 3, 2026, and is described above.</p>
+      <p>Session recording, and advertising measurement through Meta and Google, are described above and were added on September 3, 2026.</p>
 
       <h2>Contact</h2>
       <p>For privacy questions or requests, email <a href="mailto:hamzacakmak833@gmail.com">hamzacakmak833@gmail.com</a> or use the <a href="support.html">Nabla support page</a>.</p>
