@@ -12,6 +12,7 @@ repository.
 | `privacy.html` | Privacy policy — linked from the paywall and both store listings |
 | `terms.html` | Terms of use, including auto-renewing subscription terms |
 | `support.html` | Support contact, subscription help, bug/error reporting |
+| `app-version.json` | Oldest supported (`minimum`) and newest (`latest`) app version per platform. Below `minimum` the app shows a required-update screen; below `latest` it offers the update once. Raise `minimum` only after that version is live in both stores. |
 
 ## Published at
 

@@ -1,0 +1,12 @@
+{
+  "ios": {
+    "minimum": "1.1.1",
+    "latest": "1.1.1",
+    "url": "https://apps.apple.com/app/id6796978565"
+  },
+  "android": {
+    "minimum": "1.1.1",
+    "latest": "1.1.1",
+    "url": "https://play.google.com/store/apps/details?id=com.hamzacakmak.nabla"
+  }
+}
